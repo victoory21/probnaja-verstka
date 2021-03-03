@@ -1,0 +1,6 @@
+{
+   "liveSassCompile.settings.autoprefix": [
+      "last 5 versions"
+],
+"liveServer.settings.port": 5502
+}
