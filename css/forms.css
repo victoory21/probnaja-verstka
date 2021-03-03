@@ -22,9 +22,8 @@
   letter-spacing: 0.67px;
   position: relative;
 }
-
 .btn::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 100%;
@@ -37,44 +36,35 @@
   -o-transition: all 0.8s ease 0s;
   transition: all 0.8s ease 0s;
 }
-
 .btn_w {
   color: #fff;
   border: 1px solid #fff;
 }
-
 .btn_w::after {
   background-color: #fff;
 }
-
 .btn_b {
   color: #000;
   border: 1px solid #000;
 }
-
 .btn_b::after {
   background-color: #000;
 }
-
 .btn span {
   position: relative;
   z-index: 1;
 }
-
 .btn:hover.btn_w {
   color: black;
 }
-
 .btn:hover::after {
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
 }
-
 .btn:hover.btn_b {
   color: #fff;
 }
-
 .btn.fw {
   width: 100%;
 }
@@ -98,7 +88,6 @@
   position: relative;
   cursor: pointer;
 }
-
 .select .select-title {
   z-index: 1;
   width: 100%;
@@ -107,7 +96,6 @@
   position: relative;
   background-color: #fff;
 }
-
 .select .select-title__arrow {
   position: absolute;
   top: 0;
@@ -116,7 +104,6 @@
   height: 100%;
   background: url("/img/icon/Arrow.png") center no-repeat;
 }
-
 .select .select-title__value {
   color: #000;
   font-weight: 700;
@@ -130,7 +117,6 @@
   -o-text-overflow: ellipsis;
      text-overflow: ellipsis;
 }
-
 .select .select-options {
   position: absolute;
   z-index: 10;
@@ -142,26 +128,21 @@
   border: 1 solid #dedede;
   padding: 10px 20px 10px 25px;
 }
-
 .select .select-options-scroll {
   min-height: 80px;
   overflow: auto;
 }
-
 .select .select-options-list {
   padding: 0px 0px 0px 0px;
 }
-
 .select .select-options__value {
   color: #000;
   font-size: 20px;
   margin: 0px 0px 15px 0px;
 }
-
 .select .select-options__value:last-child {
   margin: 0px 0px 0px 0px;
 }
-
 .select .select-options__value:hover {
   color: #000;
 }
@@ -183,11 +164,9 @@ input[type=text], input[type=email], input[type=tel], textarea {
   border-top: 1px solid #000;
   background-color: #f8f7f7;
 }
-
 .input:focus {
   border-top: 1px solid blue;
 }
-
 .input.err {
   border-top: 1px solid red;
 }
@@ -205,13 +184,11 @@ textarea.input {
   line-height: 18px;
   cursor: pointer;
 }
-
 .check input {
   display: none;
 }
-
 .check::before {
-  content: '';
+  content: "";
   left: 0;
   top: 0;
   width: 18px;
@@ -219,7 +196,6 @@ textarea.input {
   border: 1px solid #a3a3a3;
   position: absolute;
 }
-
 .check:active::before {
   background: url(/img/icon/check.png) center no-repeat;
 }
