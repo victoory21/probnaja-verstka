@@ -80,7 +80,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 .container1 {max-width: $mw+px;margin: 0 auto; width: 100%;
    @media (max-width: $md1+px) {max-width: 970px;}
    @media (max-width: $md2+px) {max-width: 750px;}
-   @media (max-width: $md3+px) {max-width: none;padding: 0 10px;}
+   @media (max-width: $md3+px) {max-width: 620px;padding: 0 10px;}
+   @media (max-width: $md4+px) {max-width: none;padding: 0 10px;}
 }
 //</ОСНОВНАЯ СЕТКА>=================================================================================================
 
@@ -386,9 +387,10 @@ body {
       max-width: 50%; //добавляем для IE чтобы колонки не распадались далеко
       padding: 0px 15px;
       margin: 0px 0px 30px 0px;
-      @media (max-width: $md3+px){
+      @media (max-width: $md4+px){
          flex: 1 1 100%;
          margin: 0px 0px 20px 0px;
+         max-width: 100%;
       }
    }
    // .portfolio__item

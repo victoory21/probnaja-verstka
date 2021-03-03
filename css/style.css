@@ -129,6 +129,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 768.98px) {
   .container1 {
+    max-width: 620px;
+    padding: 0 10px;
+  }
+}
+@media (max-width: 479.98px) {
+  .container1 {
     max-width: none;
     padding: 0 10px;
   }
@@ -786,12 +792,13 @@ body {
   padding: 0px 15px;
   margin: 0px 0px 30px 0px;
 }
-@media (max-width: 768.98px) {
+@media (max-width: 479.98px) {
   .portfolio__column {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 1 100%;
-            flex: 0 1 100%;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
     margin: 0px 0px 20px 0px;
+    max-width: 100%;
   }
 }
 .portfolio__item img {
